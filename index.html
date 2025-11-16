@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Amigo Secreto - Pedro</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #ffffff;
+      color: #222;
+    }
+    .wrap {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 36px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    /* Linha separadora */
+    .linha-separadora {
+      width: 100%;
+      height: 4px;
+      background: #000;
+      margin: 20px 0 35px 0;
+    }
+
+    /* Categoria (bloco fechado) */
+    .categoria {
+      background: #f2f2f2;
+      border-radius: 10px;
+      padding: 18px;
+      margin-bottom: 18px;
+      cursor: pointer;
+      border: 1px solid #ddd;
+      transition: 0.2s;
+    }
+    .categoria:hover {
+      background: #e9e9e9;
+    }
+    .categoria h2 {
+      margin: 0;
+      font-size: 22px;
+    }
+
+    /* Conteúdo que expande */
+    .conteudo {
+      display: none;
+      margin-top: 12px;
+      padding: 15px;
+      background: #ffffff;
+      border-left: 3px solid #888;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <h1 style="background:linear-gradient(90deg,#ff6b6b,#7c5cff);-webkit-background-clip:text;color:transparent;">Presentes de Amigo Secreto - Pedro</h1>
+    <div class="linha-separadora">
+      </div>
+      
+    <!-- LIVROS -->
+    <div class="categoria" onclick="toggle('livros')">
+      <h2>Livros</h2>
+    </div>
+
+    <div id="livros" class="conteudo">
+
+  <div class="item">
+    <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQtTEZ7EZGDyrBTIis3gOCAM3gsJW_JevknH21ATAgI_YG9yHRHAwX6o3hwU1W6BnwYWco3UMbCMpwxLFQWVCctWm5v9ADJqDIaxZjc9mB0" style="width:120px;border-radius:6px;">
+    <p><strong>Storm of Steel – Ernst Jünger</strong><br>
+    <a href="https://www.amazon.com.br/Storm-Steel-Penguin-Classics-Deluxe/dp/0143108255?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A2EB9PYM83FCP9">Amazon</a></p>
+  </div>
+
+  <div class="item">
+    <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSqXmBLKb-qUGrvYrpYxk6geNq9zvzT9NpsCs6uqsGU_-RrnFp9OBrmbYUUesiseYdgXv7gA7q-dEmEawTj8w2uUM5o974Ab-qqAFp8-os_3v5rwlFg58J4GQ" style="width:120px;border-radius:6px;">
+    <p><strong>Cristianismo e Liberalismo – J. Gresham Machen</strong><br>
+    <a href="https://www.amazon.com.br/Cristianismo-Liberalismo-Edi%C3%A7%C3%A3o-Centen%C3%A1ria-Comentada/dp/6589155364?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1ZZFT5FULY4LN">Amazon</a></p>
+  </div>
+
+  <div class="item">
+    <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ28zjmmtbCsUshG_8M-CjAyCfGUhn7XAIPmsjaJjfqGYTFEcYKewgtI7L5dVI0x6kXWBfK3UmKaA3fw2tEW4CftN4DYCbcdlNbOncsZHUFU3elk5a-s5LS3Q" style="width:120px;border-radius:6px;">
+    <p><strong>Sociedade Industrial e Seu Futuro – Kaczynski</strong><br>
+    <a href="https://www.amazon.com.br/Industrial-Society-Its-Future-Unabomber/dp/B086Y5JY5K?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A2EB9PYM83FCP9">Amazon</a></p>
+  </div>
+
+  <div class="item">
+    <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSnQDbbzPP5fpzTtH5hpBZERqcPcuhn1_GFYIPk3k0zkjgPOskaN9EG71_fioDCUrdFtsOnsUE9N7soi4wk79tDtJKz-aKhImMObOqtqPg" style="width:120px;border-radius:6px;">
+    <p><strong>Da Guerra – Carl von Clausewitz</strong><br>
+    <a href="https://www.amazon.com.br/Guerra-Estrategia-Carl-Von-Clausewitz/dp/8599150065?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A29OXBW5UNL0GU">Amazon</a></p>
+  </div>
+
+</div>
+
+    <!-- ELETRÔNICOS -->
+    <div class="categoria" onclick="toggle('eletronicos')">
+      <h2>Eletrônicos</h2>
+    </div>
+    <div id="eletronicos" class="conteudo">
+
+        <div class="item">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/41YJRSzkB8L._AC_UL232_SR232,232_.jpg" style="width:120px;border-radius:6px;">
+    <p><strong>Fone de ouvido - KZ EDX PRO</strong><br>
+    <a href="https://www.amazon.com.br/Fone-Ouvido-EDX-Pro-Microfone/dp/B09N99GGG9?utm_source=chatgpt.com">Amazon</a></p>
+  </div>
+
+    </div>
+
+    <!-- JOGOS -->
+    <div class="categoria" onclick="toggle('jogos')">
+      <h2>Jogos</h2>
+    </div>
+    <div id="jogos" class="conteudo">
+
+        <div class="item">
+    <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT_VtH4mZQwSxl2kUr4zAZ0GsOZJguUniXykweQpwzWB5s5_9TL9BYLqb7J5exbvXXFdj_8MK_J96x6twt13-Gss_od3xYSbVZjtAJ9UxEUpFRgpUXZgDde1w" style="width:120px;border-radius:6px;">
+    <p><strong>Cartão Steam</strong><br>
+    <a href="">n tem link</a></p>
+  </div>
+
+    </div>
+
+    <!-- funko -->
+    <div class="categoria" onclick="toggle('funko')">
+      <h2>Funko (personagens q gosto)</h2>
+    </div>
+    <div id="funko" class="conteudo">
+
+        <div class="item">
+    <img src="https://gartic.com.br/imgs/mural/ga/gandolfobranco/batman-simbolo.png" style="width:120px;border-radius:6px;">
+    <p><strong>Batman</strong><br>
+    <a href="">...</a></p>
+  </div>
+
+        <div class="item">
+    <img src="https://br.web.img2.acsta.net/pictures/23/06/27/21/17/2320488.jpg" style="width:120px;border-radius:6px;">
+    <p><strong>Fnaf</strong><br>
+    <a href="">...</a></p>
+  </div>
+
+    </div>
+
+    <!-- OUTROS -->
+    <div class="categoria" onclick="toggle('outros')">
+      <h2>Outros</h2>
+    </div>
+    <div id="outros" class="conteudo">
+
+        <div class="item">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTehwcnim1RI1et390FjsOQXBoYJJYxYTe-VQ&s" style="width:120px;border-radius:6px;">
+    <p><strong>Sul independente</strong><br>
+    <a href="">sem link</a></p>
+  </div>
+
+  <div class="item">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Flag_of_Brazil_%281853-1889%29.svg" style="width:120px;border-radius:6px;">
+    <p><strong>Restauração da Monarquia</strong><br>
+    <a href="">tbm n tem</a></p>
+  </div>
+
+  <div class="item">
+    <img src="https://www.chavesnamao.com.br/imn/0360x0400/A/veiculos/492855/7342737/volkswagen-fusca-em-colombo-pr-d9fa3adb.jpg" style="width:120px;border-radius:6px;">
+    <p><strong><Data>Fuscão Preto</Data></strong><br>
+    <a href="https://www.chavesnamao.com.br/carro/pr-cascavel/volkswagen-fusca-1.2-8v-2p-1994-mecanico-azul-RS24900/id-1549272/">Chaves Na Mão</a></p>
+  </div>
+
+  <div class="item">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Subaru_Sambar_Dias_Classic_003.JPG" style="width:120px;border-radius:6px;">
+    <p><strong>Subaru Sambar</strong><br>
+    <a href="">xii!!!</a></p>
+  </div>
+
+    </div>
+
+  </div>
+
+  <script>
+    function toggle(id) {
+      const box = document.getElementById(id);
+      box.style.display = box.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
+</body>
+</html>
